@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #222;
+}
+
+.logo {
+    height: 200px;
+    background-color: #ccc;
+    display: flex;
+    flex: 0 1 50px;
+    align-items: center;
+    /*for vertical alignment*/
+    justify-content: center;
+}
+
+.logo h1 {
+    border: 2px dashed white;
+    padding: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    color: red;
+}
+
+nav {
+    background: pink;
+    height: 50px;
+    padding: 10px;
+    position: sticky;
+    top: 0px;
+    right: 0;
+    margin: 3px;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    width: 100px;
+    font-size: 19px;
+}
+
+a:hover {
+    color: red;
+}
+
+.main-section {
+    min-height: 350px;
+    padding: 25px;
+    margin: 10px;
+    border: 2px solid white;
+}
+
+p, h2, h3,h1 {
+    color: white;
+    padding: 10px;
+}
+
+h2 {
+    font-style: italic;
+}
+
+img {
+    width: 70%;
+    height: 200px;
+}
+
+.title {
+    color: white;
+    margin: 20px;
+}
+
+footer {
+    padding: 25px;
+    border: 2px solid wheat;
+}
+
+footer ul {
+    list-style: none;
+    padding: 15px;
+    color: white;
+}
+
+strong {
+    text-decoration: underline;
+    font-size: 2.5em;
+}
+
+/*for contact.html*/
+.contact{
+    width: 80%;
+    margin: 0 auto;
+    background-color: #ccc;
+    padding: 50px;
+}
+input{
+    width: 250px;
+    padding: 10px;
+    font-size: 15px;
+    color: #222;
+    border: 2px solid lightblue;
+}
+#btn{
+    background: red;
+    padding: 10px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 50px;
+    width: 200px;
+    margin-left: 50px;
+}
+
+.net-video{
+    width: 400px;
+}
